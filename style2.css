@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+nav {
+    display: flex;   
+    flex-wrap: wrap;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    background: white;
+    padding: 25px 100px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px; 
+    color: grey;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.gallery-item {
+    background-color: pink;
+    padding: 25px;
+    width: 400px;
+    margin: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1; /* Світло-сірий фон */
+    padding: 20px; /* Відступи */
+    text-align: center; /* Вирівнювання тексту */
+    border-top: 1px solid #e7e7e7; /* Верхня межа */
+}
+
+footer a {
+    margin: 0 10px; /* Відступи між посиланнями */
+    display: inline-block; /* Відображення як інлайн-блок */
+}
+
+footer p {
+    font-size: 14px; /* Розмір тексту */
+    color: #333; /* Колір тексту */
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
